@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>我的信息</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="main-background">
+  
+  <ion-item class="my-head" [hidden]="notLogin" >
+		<ion-avatar item-left>
+      <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1762395861,223515962&fm=117&gp=0.jpg">
+    </ion-avatar>
+    <h2>王鹏</h2>
+    <p>白金会员</p>
+	</ion-item>
+
+	<ion-item class="my-head-login" text-center [hidden]="!notLogin" >
+			<button ion-button (click)="loginCmd()" >登录</button>
+			<button ion-button (click)="registeCmd()" color="light">注册</button>
+	</ion-item>
+
+  
+  <ion-list>
+  <button ion-item>
+	  全部订单
+  </button>  
+  <ion-item>
+    <div padding-horizontal   class="my-line">
+       <div class="my-cell" text-center>
+           <div><ion-icon name="card-outline" ></ion-icon></div>
+			      待付款
+       </div>
+       <div class="my-cell" text-center>
+           <div><ion-icon name="cube-outline" ></ion-icon></div>
+			      待发货
+       </div>
+       <div class="my-cell" text-center>
+           <div><ion-icon name="plane-outline" ></ion-icon></div>
+			      待收货
+       </div>
+       <div class="my-cell" text-center>
+           <div><ion-icon name="clipboard-outline" ></ion-icon></div>
+			      待评价
+       </div>
+       <div class="my-cell" text-center>
+           <div><ion-icon name="card-outline" ></ion-icon></div>
+			      售后
+       </div> 
+    </div>
+  </ion-item>
+ </ion-list>
+
+  <ion-list id="fun-list">
+	<button ion-item >
+		<ion-icon text-center name="share-outline"></ion-icon>
+		分享APP
+	</button>  
+	<button ion-item >
+		<ion-icon text-center name="happy-outline"></ion-icon>
+		优惠券
+	</button>  
+	<button ion-item >
+		<ion-icon text-center name="star-outline"></ion-icon>
+		我的收藏
+	</button>  
+	<button ion-item >
+		<ion-icon text-center name="flower-outline"></ion-icon>
+		积分管理
+	</button>  
+	<button ion-item >
+		<ion-icon text-center name="filing-outline"></ion-icon>
+		地址管理
+	</button>  
+	<button ion-item >
+		<ion-icon text-center name="construct-outline"></ion-icon>
+		系统设置
+	</button>  
+	<button ion-item >
+		<ion-icon text-center name="contacts-outline"></ion-icon>
+		联系我们
+	</button>  
+  </ion-list>
+ <div text-center>
+	<button  ion-button full >退出登录</button>
+ </div>
+ 
+</ion-content>

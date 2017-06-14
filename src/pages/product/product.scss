@@ -1,0 +1,65 @@
+page-product {
+
+     .main-background {
+        background-color:#f0f0f0;
+    }
+
+    .main-foreground {
+        background-color:#ffffff;
+    }
+
+    .del-text {
+        text-decoration:line-through;
+        color:gray;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    .title-font {
+        font-size:1.5rem;
+    }
+
+    ion-thumbnail {
+        width:100px;
+        height:100px;
+    }
+
+    .item-img {
+        width:100px!important;
+        height:100px!important;
+    }
+
+    ion-list-header {
+        font-size:15px;
+    }
+
+    
+    .item-footer {
+        border-top:0.55px solid #c8c7cc;
+    }
+
+    .item-title {
+        border-top:0.55px solid #c8c7cc;
+        border-bottom:0.55px solid #c8c7cc;
+        line-height: normal;
+        font-size:17px;
+    }
+
+    #discount-list ion-item:nth-last-child(2) .item-inner {
+        border-bottom: none!important;
+    }
+
+    .product-line {
+        line-height:30px;
+    }
+
+    .scroll-type {
+        height:40px;
+    }
+
+    .line-type {
+        white-space:nowrap;line-height:40px;
+    }
+}

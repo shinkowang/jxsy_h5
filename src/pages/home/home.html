@@ -1,0 +1,250 @@
+<ion-header>
+  <ion-navbar>
+    <div class="table-warp">
+      <div class="table-cell">
+        <ion-searchbar 
+          id="home-search"
+          placeholder="搜索"
+          showCancelButton="true"
+          cancelButtonText="清空"
+          (tap)="onFocus($event)"
+          ></ion-searchbar>
+      </div>
+      <div class="table-cell short-len">
+        <div>
+          <ion-icon name="chatbubbles-outline" is-active="false" class="big-icon"></ion-icon>
+          <ion-badge class="sup">26</ion-badge>
+        </div>
+      </div>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="main-background">
+  <ion-slides pager class="slide-high">
+    <ion-slide>
+      <img src="assets/img/placeholder.png"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/placeholder.png"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/placeholder.png"/>
+    </ion-slide>
+  </ion-slides>
+ <ion-label padding-left>30天无忧退货 江苏省兽药联盟自营 24小时快速发货</ion-label>
+
+<ion-slides pager class="slide-mid">
+    <ion-slide>
+      <div padding-horizontal class="slide-line">
+       <button ion-button class="slide-cell">化药粉剂</button>
+       <button ion-button class="slide-cell">中药粉剂</button>
+       <button ion-button class="slide-cell">注射液</button>
+       <button ion-button class="slide-cell">粉针</button>
+       <button ion-button class="slide-cell">中药制剂</button>
+      </div>
+      <div padding-horizontal class="slide-line">
+       <button ion-button class="slide-cell">论坛</button>
+       <button ion-button class="slide-cell">积分商城</button>
+       <button ion-button class="slide-cell">兽药百科</button>
+       <button ion-button class="slide-cell">激素</button>
+       <button ion-button class="slide-cell">所有产品</button>
+      </div>
+      <div class="slide-hold"></div>
+    </ion-slide>
+  </ion-slides>
+
+<ion-list>
+  <ion-list-header class="main-foreground title-font">
+    <ion-row>
+        <ion-col col-6 text-left>限时秒杀</ion-col>
+        <ion-col col-6 text-right>剩余时间:22:10:00</ion-col>
+    </ion-row>
+  </ion-list-header>
+  <ion-item>
+    <ion-thumbnail item-left>
+      <img class="item-img"  src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2 margin-bottom>药品A</h2>
+    <span margin-right class="del-text">¥33</span><span>¥22</span>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-left>
+      <img class="item-img"  src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2 margin-bottom>药品A</h2>
+    <span margin-right class="del-text">¥33</span><span>¥22</span>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-left>
+      <img class="item-img"  src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2 margin-bottom>药品A</h2>
+    <span margin-right class="del-text">¥33</span><span>¥22</span>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-left>
+      <img class="item-img"  src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2 margin-bottom>药品A</h2>
+    <span margin-right class="del-text">¥33</span><span>¥22</span>
+  </ion-item>
+</ion-list>
+
+<ion-list id="discount-list">
+  <ion-list-header text-center class="main-foreground title-font">
+     天天特价
+  </ion-list-header>
+  <ion-item >
+    <ion-thumbnail item-left>
+      <img class="item-img" src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2 margin-bottom>10%盐酸多西环素</h2>
+    <p margin-bottom>强力霉素 &nbsp;满99元包邮</p>
+    <p>¥8.80/100g</p>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-left>
+      <img class="item-img" src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2>药品A</h2>
+    <span margin-right class="del-text">¥33</span><span>¥22</span>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-left>
+      <img class="item-img" src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2>药品A</h2>
+    <span margin-right class="del-text">¥33</span><span>¥22</span>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-left>
+      <img class="item-img" src="assets/img/placeholder.png">
+    </ion-thumbnail>
+    <h2>药品A</h2>
+    <span margin-right class="del-text">¥33</span><span>¥22</span>
+  </ion-item>
+  <ion-item text-center class="item-footer ">
+      查看更多
+  </ion-item>
+</ion-list>
+
+<div text-center class="item-title main-foreground" >
+     <ion-label> 热销产品</ion-label>
+</div>
+<ion-grid class="main-foreground" margin-bottom>
+ <ion-row >
+    <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+
+     <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+
+     <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+
+     <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+<ion-scroll class="scroll-type main-foreground item-title" scrollX="true">
+<div margin-horizontal class="line-type" >
+	<a margin-right>化药粉剂</a><a margin-right>中药粉剂</a>
+  <a margin-right>注射液</a><a margin-right>粉针</a>
+  <a margin-right>中药制剂</a><a margin-right>消毒剂</a>
+  <a margin-right>营养添加剂</a><a margin-right>微生态制剂</a>
+  <a margin-right>激素</a>
+</div>
+</ion-scroll>
+<ion-grid class="main-foreground" >
+ <ion-row >
+    <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+
+     <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+
+     <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+
+     <ion-col col-6 >
+      <ion-card>
+	      <img src="assets/img/placeholder.png">
+          <div class="product-line" text-center>
+            10%阿莫西林可溶性粉
+          </div >
+          <div class="product-line" text-center>
+            ¥4.50/100g
+          </div>        
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+</ion-content>
+ 

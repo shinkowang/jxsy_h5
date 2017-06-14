@@ -1,0 +1,38 @@
+page-login {
+    .big-icon {
+        font-size:40px;
+    }
+
+    .table-warp{
+        display:table;width:100%;
+        .table-cell {
+            display:table-cell;
+            vertical-align:middle;
+        }
+    }
+
+     .main-background {
+        background-color:#f0f0f0;
+    }
+
+    .main-foreground {
+        background-color:#ffffff;
+    }
+
+
+    .icon-input {
+        -webkit-flex: 0 0 20px;
+        -ms-flex: 0 0 20px;
+        flex: 0 0 20px;
+        width: 20px;
+        min-width: 20px;
+        max-width: 200px;
+        font-size:18px;
+    }
+
+    #login-from {
+         
+    }
+
+
+}

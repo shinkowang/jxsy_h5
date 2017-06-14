@@ -1,0 +1,112 @@
+page-home {
+
+    .table-warp{
+        display:table;width:100%;
+        .table-cell {
+            display:table-cell;
+            vertical-align:middle;
+        }
+    }
+
+    .short-len{
+        width:40px;
+    }
+
+    .big-icon {
+        font-size:40px;
+    }
+
+    .sup {
+        float:right;font-size:0.8rem;position:absolute;right:2px;padding:3px 3px;
+    }
+
+    .main-background {
+        background-color:#f0f0f0;
+    }
+
+    .main-foreground {
+        background-color:#ffffff;
+    }
+
+    .slide-high {
+        height:200px;
+        img {
+            width:100%;height:100%;
+        }
+
+    }
+
+    .slide-mid {
+        height:150px;
+    }
+
+    .slide-line {
+        display:flex; flex-wrap:nowrap; justify-content:space-between;
+    }
+
+    .slide-cell {
+        border-radius:50%; width:50px;height:50px;font-size:10px;
+    }
+
+    .slide-hold {
+        height:30px;
+    }
+
+    .del-text {
+        text-decoration:line-through;
+        color:gray;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    .title-font {
+        font-size:1.5rem;
+    }
+
+    ion-thumbnail {
+        width:100px;
+        height:100px;
+    }
+
+    .item-img {
+        width:100px!important;
+        height:100px!important;
+    }
+
+    ion-list-header {
+        font-size:15px;
+    }
+
+    
+    .item-footer {
+        border-top:0.55px solid #c8c7cc;
+    }
+
+    .item-title {
+        border-top:0.55px solid #c8c7cc;
+        border-bottom:0.55px solid #c8c7cc;
+        line-height: normal;
+        font-size:17px;
+    }
+
+    #discount-list ion-item:nth-last-child(2) .item-inner {
+        border-bottom: none!important;
+    }
+
+    .product-line {
+        line-height:30px;
+    }
+
+    .scroll-type {
+        height:40px;
+    }
+
+    .line-type {
+        white-space:nowrap;line-height:40px;
+    }
+
+   
+    
+}
